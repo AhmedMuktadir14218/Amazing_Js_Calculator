@@ -1,7 +1,6 @@
 body {
     background-color:#343333;
-    font-size: 30px;
-    font-weight: 700;
+ 
 }
 
 .container {
@@ -9,6 +8,7 @@ body {
     display: inline-block;
     padding: 20px;
     border-radius: 10px;
+    
 }
 button {
     height: 60px;
@@ -16,10 +16,15 @@ button {
     border-radius: 50%;
     border: none;
     margin: 5px;
+    font-size: 30px;
+    font-weight: 250;
 }
 #zeroBtn{
     width: 135px;
     border-radius: 30px;
+}
+#equalBtn{
+    background-color: #ff9708;
 }
 .row :nth-child(4){
     background-color: #ff9708;
